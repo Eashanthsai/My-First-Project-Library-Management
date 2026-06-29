@@ -1,5 +1,9 @@
 package exception;
 
-public class MembeerNotFoundException {
+public class MembeerNotFoundException extends Exception {
+
+    public MembeerNotFoundException(String message) {
+        super(message);
+    }
 
 }
